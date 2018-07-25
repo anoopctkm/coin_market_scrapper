@@ -8,8 +8,10 @@ library(rvest)
 #####################
 
 get.data <- function(x){
-
-  myurl <- read_html("https://coinmarketcap.com/gainers-losers/") # read our webpage as html
+  
+  url<-'https://coinmarketcap.com/gainers-losers/'
+  download.file(url,destfile="data_gain_lose.html",quiet=TRUE)
+  myurl <- read_html("data_gain_lose.html") # read our webpage as html
   myurl <- html_table(myurl)  # convert to an html table for ease of use
   
   
