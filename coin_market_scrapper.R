@@ -70,13 +70,9 @@ ui <- dashboardPage(
     br(),
     br(),
     
-    h6("Built by Brad Lindblad in the R computing language 
-      [  R Core Team (2018). R: A language and environment for statistical computing. R Foundation for Statistical Computing,
-  Vienna, Austria. URL https://www.R-project.org/]"),
+    h6("Built by ANOOP C in R"),
     br(),
-    h6("R version 3.4.4 (2018-03-15) 'Someone to Lean On'"),
-    br(),
-    a("bradley.lindblad@gmail.com", href="mailto:bradley.lindblad@gmail.com")
+    a("anoopctkm@gmail.com", href="mailto:anoopctkm@gmail.com")
     
   ),
   
